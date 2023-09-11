@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ICE_DBModelStoreContainer" CdmEntityContainer="ICE_DBEntities">
+    <EntitySetMapping Name="TBL_CUS">
+      <EntityTypeMapping TypeName="ICE_DBModel.TBL_CUS">
+        <MappingFragment StoreEntitySet="TBL_CUS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_FLAV">
+      <EntityTypeMapping TypeName="ICE_DBModel.TBL_FLAV">
+        <MappingFragment StoreEntitySet="TBL_FLAV">
+          <ScalarProperty Name="FDescription" ColumnName="FDescription" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="FID" ColumnName="FID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ITEM">
+      <EntityTypeMapping TypeName="ICE_DBModel.TBL_ITEM">
+        <MappingFragment StoreEntitySet="TBL_ITEM">
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Flavor" ColumnName="Flavor" />
+          <ScalarProperty Name="ExpDate" ColumnName="ExpDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Decsription" ColumnName="Decsription" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="itCod" ColumnName="itCod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ORDER">
+      <EntityTypeMapping TypeName="ICE_DBModel.TBL_ORDER">
+        <MappingFragment StoreEntitySet="TBL_ORDER">
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="TimeDate" ColumnName="TimeDate" />
+          <ScalarProperty Name="PutDate" ColumnName="PutDate" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="IDO" ColumnName="IDO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_BILL">
+      <EntityTypeMapping TypeName="ICE_DBModel.TBL_BILL">
+        <MappingFragment StoreEntitySet="TBL_BILL">
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="IDB" ColumnName="IDB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_LOGIN">
+      <EntityTypeMapping TypeName="ICE_DBModel.TBL_LOGIN">
+        <MappingFragment StoreEntitySet="TBL_LOGIN">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
